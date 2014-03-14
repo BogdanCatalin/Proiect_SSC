@@ -1,0 +1,19 @@
+http://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter
+
+http://digital.ni.com/public.nsf/websearch/2ad81b9060162e708625678c006dfc62
+
+http://www.fpga4fun.com/SerialInterface.html
+
+http://dangerousprototypes.com/2011/02/28/implementation-of-uart-transmitter-in-verilog-hdl-for-spartan3-fpga/
+
+--https://www.pantechsolutions.net/cpld-fpga-boards/rs-232-interfacing-with-spartan-3e-webserver
+
+
+
+http://www.xilinx.com/products/boards/s3estarter/files/s3esk_picoblaze_spi_flash_programmer.pdf
+https://www.pantechsolutions.net/media/k2/attachments/Interfacing_RS-232_with_Spartan-3E_FPGA.pdf
+http://stackoverflow.com/questions/16732088/rs232-transmitter-module-in-vhdl-latches
+http://forums.xilinx.com/t5/Xilinx-Boards-and-Kits/Rs232-port-on-Spartan-3-starter-board/td-p/19282
+
+!!COD!! https://github.com/pabennett/uart
+!!PROIECTARE + COD!! http://radio.ubm.ro/EA/Documente/Cursuri_Laboratoare/Sisteme%20dedicate/carte.pdf

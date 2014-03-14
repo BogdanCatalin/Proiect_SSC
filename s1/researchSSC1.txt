@@ -1,0 +1,12 @@
+Pentru comunicarea seriala dintre placa FPGA si calculator se va folosi interfata RS-232. Aceasta are urmatoarele caracteristici;
+-Un conector care foloseste 9 pini "DB-9";
+-Permite comunicare bidirectionala full-duplex(PC-ul poate trimite si primi date in acelasi timp);
+-Poate comunica la o viteza maxima de 10Kb/s
+
+Comunicarea seriala se face astfel:
+-Datele sunt trimise cate 1 bit pe rand; pentru fiecare directie se foloseste un fir. Deoarece calculatoarele au nevoie de cel putin cativa biti de date,
+datele sunt serializate inainte sa fie trimise. Datele sunt trimise deobicei in bucati de 8 biti.
+
+Trebuie definita o structura de date care va fi folosita pe post de mesaje intre cele doua entitati. Aceasta structura ar trebui sa inceapa cu un bit de start si sa se termine cu un bit de stop. Intre cei doi biti se va gasi mesajul propriu-zis.
+
+In cazul in care nu se executa nicio transmisie se va pastra inalta-impedanta. Bitul de start va fi un 0 pentru a semnaliza trimiterea mesajului. Urmatorii biti, de obicei 5,8 sau 9 vor reprezenta data. In urma trimiterii datelor se va semnala prin bitul de stop, inalta-impedanta ca transmisia s-a incheiat.
